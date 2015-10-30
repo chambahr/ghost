@@ -8,7 +8,12 @@
 {{!< default}}
 
 {{#post}}
+  <div class="msg main-item main-message">
+    <h3 class="msg-item">{{title}}</h3>
+  </div>
 
-{{> "post"}}
+  <div class="main-message">
+    {{content}}
+  </div>
 
 {{/post}}
