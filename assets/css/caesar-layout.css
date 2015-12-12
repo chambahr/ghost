@@ -40,6 +40,7 @@ a:after,
   transition-duration: .25s;
   transition-property: opacity, visibility, -webkit-transform;
   transition-property: opacity, visibility, transform;
+  transition-property: opacity, visibility, transform, -webkit-transform;
 }
 .ani-center,
 [data-js~="main"][data-js~="main-start"] .main-item:not( .main-post ),
@@ -412,7 +413,9 @@ code {
   border: 0;
   padding: 8px;
   background: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   color: inherit;
 }
 .form-btn {
@@ -424,7 +427,9 @@ code {
   border: 0;
   padding: 8px 8px 8px;
   background: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   color: inherit;
   cursor: pointer;
 }

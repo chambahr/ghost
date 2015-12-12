@@ -5,15 +5,15 @@
 */
 @import url("//fonts.googleapis.com/css?family=Roboto:300,500|Roboto:300");
 a {
-  color: #d32f2f;
+  color: #D32F2F;
 }
 a:hover {
-  color: #e53935;
+  color: #E53935;
 }
 blockquote {
   color: #ebebeb;
   background-color: #262626;
-  border-left: 4px solid #c62828;
+  border-left: 4px solid #C62828;
 }
 code {
   border-radius: 2px;
@@ -324,15 +324,15 @@ b {
   color: #a8a8a8;
 }
 ::-moz-selection {
-  background: #d32f2f;
+  background: #D32F2F;
   color: #ebebeb;
 }
 ::selection {
-  background: #d32f2f;
+  background: #D32F2F;
   color: #ebebeb;
 }
 ::-moz-selection {
-  background: #d32f2f;
+  background: #D32F2F;
   color: #ebebeb;
 }
 body {
@@ -386,7 +386,7 @@ body {
   }
 }
 .post-icon {
-  color: #d32f2f;
+  color: #D32F2F;
 }
 .post-body p a,
 .quote-source a,
@@ -394,7 +394,7 @@ body {
   border-bottom: 1px solid rgba(211, 47, 47, 0.3);
 }
 .post-body p a:hover {
-  border-bottom-color: #e53935;
+  border-bottom-color: #E53935;
 }
 p.post-more a {
   border-bottom: 0;
@@ -402,7 +402,7 @@ p.post-more a {
 }
 .post-body mark {
   color: #ebebeb;
-  background-color: #d32f2f;
+  background-color: #D32F2F;
 }
 .post-body .footnotes ol,
 .post-body .footnote:before {
